@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Team Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#tech-tasks">Tech Tasks</a></li>
+                    <li><a href="#creative-tasks">Creative Tasks</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers and creative minds working together to explore technology and creativity through various projects and challenges.</p>
+        </div>
+    </section>
+
+    <section id="tech-tasks">
+        <div class="container">
+            <h2>Tech Tasks</h2>
+            <div class="task">
+                <h3>Code Output</h3>
+                <img src="output.jpg" alt="Bar Chart" class="image">
+            </div>
+            <div class="task">
+                <h3>Bar Chart</h3>
+                <div id="bar-chart">
+                    <img src="code.jpg" alt="Bar Chart" class="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="creative-tasks">
+        <div class="container">
+            <h2>Creative Tasks</h2>
+            <div class="task">
+                <h3>Poems</h3>
+                <p>Here's a poem created during the challenge:</p>
+                <blockquote>
+                    A hollow echo in the neon maze, <br>
+                    Where lives are bartered, fortunes set ablaze. <br>
+                    Each fallen player, a spectral, fading trace, <br>
+                    A ghost of what they were, in this cruel, twisted place. <br>
+                    Survival's hunger, a ravenous, cold beast, <br>
+                    Leaving only shadows, where vibrant souls had leased. <br>
+                    <br>
+                    The gilded pig, a promise, sharp and bright, <br>
+                    But greed's dark current pulls them through the night. <br>
+                    Desperation's grip, a chilling, phantom hand, <br>
+                    As trust dissolves, like castles built on sand. <br>
+                    Each whispered bargain, a ghostly, broken vow, <br>
+                    In this deadly game, where only winners bow. <br>
+                    <br>
+                    They walk as ghosts, though breath still fills their lungs, <br>
+                    Their humanity lost, where brutal tension's sprung. <br>
+                    A hollow victory, a prize of tainted gold, <br>
+                    Their former selves, a story left untold. <br>
+                    The weight of choices, a spectral, heavy chain, <br>
+                    In this macabre theatre, where madness will remain. <br>
+                    <br>
+                    And when the games are done, and silence fills the air, <br>
+                    The ghosts of fallen players, linger everywhere. <br>
+                    A haunting reminder, of choices made in fear, <br>
+                    A chilling testament, to what they held so dear. <br>
+                    The ghost of innocence, forever swept aside, <br>
+                    In the cruelest game, where life and death collide.
+                </blockquote>
+            </div>
+            <div class="task">
+                <h3>AI-Generated Images</h3>
+                <img src="img.jpg" alt="AI Image" class="image">
+            </div>
+            <div class="task">
+                <h3>AI-Generated Music</h3>
+                <audio controls>
+                    <source src="test2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-us">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to get in touch for collaborations, queries, or just to say hello!</p>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Team Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

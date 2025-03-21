@@ -1,0 +1,153 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    padding: 1rem 0;
+    border-bottom: 3px solid #e74c3c; /* Accent red */
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e74c3c; /* Accent red */
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #34495e; /* Dark gray */
+}
+
+section .task {
+    margin-bottom: 2rem;
+}
+
+section .task h3 {
+    font-size: 1.5rem;
+    color: #2c3e50; /* Dark blue */
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+}
+
+section .task p, section .task blockquote {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #7f8c8d; /* Light gray */
+}
+
+blockquote {
+    border-left: 5px solid #e74c3c; /* Accent red */
+    padding-left: 1rem;
+    font-style: italic;
+    color: #2c3e50; /* Dark blue */
+}
+
+#contact-us p {
+    font-size: 1.1rem;
+    color: #7f8c8d; /* Light gray */
+    margin-bottom: 1.5rem;
+    text-align: center; /* Ensures the paragraph is centered */
+}
+
+/* Image Styling */
+.image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #e74c3c; /* Accent red */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c0392b; /* Darker red */
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
